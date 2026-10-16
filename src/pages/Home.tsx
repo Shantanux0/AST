@@ -100,20 +100,20 @@ export const Home: React.FC = () => {
         {/* Hero Content */}
         <div className="relative z-10 max-w-7xl mx-auto px-6 lg:px-12 w-full text-white">
           <div className="max-w-4xl">
-            {/* Category / Enterprise Tag Badge */}
+            {/* Tag / Location indicator */}
             <motion.div
               initial={{ opacity: 0, y: 15 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: 0.2 }}
-              className="inline-flex items-center gap-2.5 px-3.5 py-1.5 rounded-full bg-black/60 border border-white/20 backdrop-blur-md mb-6"
+              className="inline-flex items-center gap-2 mb-6"
             >
-              <span className="w-2 h-2 rounded-full bg-[#FF5B1F] animate-pulse" />
-              <span className="text-[11px] sm:text-xs uppercase tracking-widest font-semibold text-white/90 font-mono">
-                Enterprise SAP Practice • Strategic Talent • Hyderabad & Global
+              <span className="w-1.5 h-1.5 rounded-full bg-[#FF5B1F]" />
+              <span className="text-tag text-white/90 font-medium">
+                {HOME_PAGE.hero.tag}
               </span>
             </motion.div>
 
-            {/* Monumental Company Headline: Aditya Swift Technologies. */}
+            {/* Huge Headline: "SAP projects. The right people." line-by-line slide up */}
             <h1 className="font-serif text-display-hero text-white tracking-tight mb-6">
               <span className="block overflow-hidden">
                 <motion.span
@@ -122,17 +122,17 @@ export const Home: React.FC = () => {
                   transition={{ duration: 0.9, ease: [0.16, 1, 0.3, 1], delay: 0.3 }}
                   className="block"
                 >
-                  Aditya Swift
+                  {HOME_PAGE.hero.headlinePart1}
                 </motion.span>
               </span>
-              <span className="block overflow-hidden text-[#FF5B1F] italic">
+              <span className="block overflow-hidden text-white/90">
                 <motion.span
                   initial={{ y: '100%' }}
                   animate={{ y: '0%' }}
                   transition={{ duration: 0.9, ease: [0.16, 1, 0.3, 1], delay: 0.45 }}
                   className="block"
                 >
-                  Technologies.
+                  {HOME_PAGE.hero.headlinePart2}
                 </motion.span>
               </span>
             </h1>
@@ -142,9 +142,9 @@ export const Home: React.FC = () => {
               initial={{ opacity: 0, y: 15 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.7, delay: 0.6 }}
-              className="text-base sm:text-xl text-white/90 max-w-2xl font-light mb-10 leading-relaxed"
+              className="text-base sm:text-lg text-white/80 max-w-xl font-light mb-10"
             >
-              Enterprise SAP excellence and the elite technology talent to drive it. Engineered for scale, speed, and certainty.
+              {HOME_PAGE.hero.subline}
             </motion.p>
 
             {/* Action Links */}
