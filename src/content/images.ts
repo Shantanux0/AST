@@ -46,11 +46,11 @@ export const IMAGES = {
       alt: "Enterprise cloud systems architect configuring SAP infrastructure",
       caption: "SAP Transformation & Cloud Advisory"
     },
-    // Custom Generated International Executive Partnership Handshake
+    // International Corporate & Tech Talent Pod
     staffing: {
-      url: "/images/ast_executive_partnership.jpg",
-      alt: "International corporate executives in tailored suits shaking hands in high-rise skyscraper overlooking Frankfurt",
-      caption: "Strategic Talent & Specialized Teams"
+      url: "/images/ast_foreign_corporate_genz.jpg",
+      alt: "Young international Gen Z corporate professionals and enterprise consultants collaborating in a modern high-rise glass boardroom",
+      caption: "Next-Gen Enterprise Talent & Global Staffing Pods"
     }
   },
 

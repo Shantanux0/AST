@@ -61,23 +61,23 @@ export const Navbar: React.FC = () => {
         }`}
       >
         <div className="max-w-7xl mx-auto px-6 lg:px-12 h-20 flex items-center justify-between">
-          {/* Logo / Wordmark */}
+          {/* Logo / Wordmark - Prominently Highlighted */}
           <Link
             to="/"
-            className="flex items-center gap-3 group"
+            className="flex items-center gap-3.5 group"
             aria-label="Aditya Swift Technologies Home"
           >
             <div className="flex items-center">
               <Logo
                 variant={isTransparentHero ? 'white' : 'black'}
-                className="w-8 h-8 transition-transform duration-300 group-hover:scale-105"
+                className="w-9 h-9 sm:w-10 sm:h-10 transition-transform duration-300 group-hover:scale-105"
               />
             </div>
-            <div className="flex flex-col border-l border-current/25 pl-2.5">
-              <span className="text-[11px] tracking-[0.14em] uppercase font-bold leading-none">
+            <div className="flex flex-col border-l-2 border-[#FF5B1F] pl-3">
+              <span className="text-sm sm:text-base tracking-[0.12em] uppercase font-extrabold leading-none">
                 Aditya Swift
               </span>
-              <span className="text-[9px] tracking-[0.12em] opacity-75 uppercase font-medium leading-tight mt-0.5">
+              <span className="text-[10px] sm:text-[11px] tracking-[0.16em] uppercase font-bold text-[#FF5B1F] leading-tight mt-1">
                 Technologies Pvt Ltd
               </span>
             </div>

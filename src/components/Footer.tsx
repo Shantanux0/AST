@@ -30,13 +30,13 @@ export const Footer: React.FC = () => {
         {/* Top Band: Brand Statement & Local Time */}
         <div className="flex flex-col md:flex-row md:items-end justify-between pb-16 border-b border-[#E6E2DA] gap-8">
           <div>
-            <div className="flex items-center gap-3 mb-3">
-              <Logo variant="black" className="w-8 h-8" />
-              <div className="flex flex-col border-l border-[#0E0E0C]/20 pl-2.5">
-                <span className="text-[11px] tracking-[0.14em] uppercase font-bold leading-none">
+            <div className="flex items-center gap-3.5 mb-4">
+              <Logo variant="black" className="w-9 h-9 sm:w-10 sm:h-10" />
+              <div className="flex flex-col border-l-2 border-[#FF5B1F] pl-3">
+                <span className="text-base sm:text-lg tracking-[0.12em] uppercase font-extrabold leading-none text-[#0E0E0C]">
                   Aditya Swift
                 </span>
-                <span className="text-[9px] tracking-[0.12em] opacity-70 uppercase font-medium leading-tight mt-0.5">
+                <span className="text-[11px] sm:text-xs tracking-[0.16em] uppercase font-bold text-[#FF5B1F] leading-tight mt-1">
                   Technologies Pvt Ltd
                 </span>
               </div>
