@@ -246,7 +246,7 @@ export const Careers: React.FC = () => {
               Don't see your specific SAP module?
             </h2>
             <p className="text-sm text-[#6B6B66] max-w-md">
-              We continually hire senior SAP consultants for upcoming global client rollouts. Submit a speculative application.
+              We continually hire senior SAP consultants for upcoming global client implementations. Submit a speculative application.
             </p>
           </div>
           <button

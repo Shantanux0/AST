@@ -33,7 +33,7 @@ export const NAVIGATION = {
         {
           group: "SAP Practice",
           items: [
-            { label: "SAP Implementation", href: "/services/sap-implementation", desc: "RISE with SAP and greenfield rollouts" },
+            { label: "SAP Implementation", href: "/services/sap-implementation", desc: "RISE with SAP and greenfield client implementations" },
             { label: "S/4HANA Conversion", href: "/services/s4hana-conversion", desc: "Brownfield, bluefield, and cloud migration" },
             { label: "Application Management", href: "/services/application-management", desc: "L2 to L4 support with guaranteed SLAs" },
           ],
@@ -111,7 +111,7 @@ export const HOME_PAGE = {
       {
         id: "01",
         title: "SAP Implementation",
-        desc: "Complete RISE with SAP rollouts and custom enterprise configurations.",
+        desc: "Complete RISE with SAP client implementations and custom enterprise configurations.",
         href: "/services/sap-implementation",
         imageKey: "sapImplementation",
       },
@@ -174,7 +174,7 @@ export const HOME_PAGE = {
         num: 75,
         suffix: "+",
         label: "Large Projects Delivered",
-        note: "Complex multi-module rollouts, cloud conversions, and custom integrations.",
+        note: "Complex multi-module client implementations, cloud conversions, and custom integrations.",
       },
       {
         prefix: "< ",
@@ -327,7 +327,7 @@ export const ABOUT_PAGE = {
     },
   ],
   quote: {
-    text: "In Sanskrit, Aditya means the Sun: source of clarity, energy, and constancy. That is how we show up for every rollout.",
+    text: "In Sanskrit, Aditya means the Sun: source of clarity, energy, and constancy. That is how we show up for every client implementation.",
     author: "Leadership Team",
     role: "Aditya Swift Technologies",
   },
@@ -453,7 +453,7 @@ export const SERVICE_PAGES = {
     slug: "sap-implementation",
     tag: "SAP Practice",
     title: "SAP Implementation",
-    intro: "Structured, predictable SAP rollouts tailored to your business architecture.",
+    intro: "Structured, predictable SAP client implementations tailored to your business architecture.",
     modulesCovered: [
       "Financial Accounting (FI)",
       "Controlling & Profitability (CO)",
@@ -493,7 +493,7 @@ export const SERVICE_PAGES = {
     faqs: [
       {
         q: "What is the typical timeframe for a mid-market SAP implementation?",
-        a: "Using our pre-configured accelerators and clean core approach, targeted rollouts typically span 4 to 7 months from discovery blueprinting to hypercare stabilization."
+        a: "Using our pre-configured accelerators and clean core approach, targeted client implementations typically span 4 to 7 months from discovery blueprinting to hypercare stabilization."
       },
       {
         q: "How does AST support RISE with SAP initiatives?",
@@ -1050,7 +1050,7 @@ export const CAREERS_PAGE = {
 export const CONTACT_PAGE = {
   tag: "01 / Contact",
   title: "Let's begin.",
-  intro: "Reach out directly. Whether planning an enterprise rollout or looking for senior talent, our leadership team responds promptly.",
+  intro: "Reach out directly. Whether planning a client implementation or looking for senior talent, our leadership team responds promptly.",
   topics: [
     "SAP Implementation / RISE",
     "S/4HANA Conversion",

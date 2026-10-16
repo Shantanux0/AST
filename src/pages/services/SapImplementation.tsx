@@ -19,7 +19,7 @@ export const SapImplementation: React.FC = () => {
         whatWeDo: content.whatWeDo,
         metrics: [
           { value: "100%", label: "Target Cutover Success", detail: "Orchestrated weekend maintenance cutovers." },
-          { value: "4 to 6", label: "Months Average Timeline", detail: "Lean accelerated RISE with SAP rollouts." },
+          { value: "4 to 6", label: "Months Average Timeline", detail: "Lean accelerated RISE with SAP client implementations." },
           { value: "24/7", label: "Hypercare Coverage", detail: "Post-go-live operational support." }
         ],
         featureImage: images.feature,

@@ -745,7 +745,7 @@ export const Home: React.FC = () => {
                       <textarea
                         required
                         rows={4}
-                        placeholder="Share brief requirements (e.g. SAP rollout, staffing pod)..."
+                        placeholder="Share brief requirements (e.g. SAP client implementation, staffing pod)..."
                         value={homeContact.message}
                         onChange={(e) => setHomeContact({ ...homeContact, message: e.target.value })}
                         className="w-full bg-[#FAF8F4] border border-[#E6E2DA] px-3.5 py-2.5 text-sm rounded-[2px] focus:outline-none focus:border-[#0E0E0C] transition-colors"

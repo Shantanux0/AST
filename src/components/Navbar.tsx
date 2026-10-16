@@ -136,7 +136,7 @@ export const Navbar: React.FC = () => {
                             SAP Implementation
                           </div>
                           <div className="text-[#6B6B66] text-[11px] mt-0.5">
-                            RISE with SAP & enterprise rollouts
+                            RISE with SAP & client implementations
                           </div>
                         </Link>
                       </li>

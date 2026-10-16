@@ -90,19 +90,19 @@ export const WhyChooseUs: React.FC = () => {
               <ul className="space-y-3 text-xs sm:text-sm text-[#6B6B66]">
                 <li className="flex items-start gap-2">
                   <span className="text-red-500 font-bold">✕</span>
-                  <span>Unfiltered resume forwarding without technical validation.</span>
+                  <span>Unplanned downtime and cutover delays on SAP S/4HANA migrations.</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <span className="text-red-500 font-bold">✕</span>
+                  <span>Reactive AMS maintenance with recurring SLA breaches and slow resolutions.</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <span className="text-red-500 font-bold">✕</span>
+                  <span>Unfiltered resume forwarding without technical SAP evaluation.</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="text-red-500 font-bold">✕</span>
                   <span>4 to 8 weeks delay in identifying project replacements.</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <span className="text-red-500 font-bold">✕</span>
-                  <span>High candidate dropout and unpredictable rates.</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <span className="text-red-500 font-bold">✕</span>
-                  <span>Junior resources staffed under senior billing titles.</span>
                 </li>
               </ul>
             </div>
@@ -114,20 +114,20 @@ export const WhyChooseUs: React.FC = () => {
               </span>
               <ul className="space-y-3 text-xs sm:text-sm text-[#0E0E0C]">
                 <li className="flex items-start gap-2">
-                  <span className="text-[#FF5B1F] font-bold">✓</span>
+                  <span className="text-emerald-600 font-bold">✓</span>
+                  <span>Clean-core SAP S/4HANA migrations with zero unplanned business downtime.</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <span className="text-emerald-600 font-bold">✓</span>
+                  <span>Guaranteed 99.8% SLA uptime with sub-15 minute emergency AMS response.</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <span className="text-emerald-600 font-bold">✓</span>
                   <span>Every candidate evaluated by practicing SAP enterprise architects.</span>
                 </li>
                 <li className="flex items-start gap-2">
-                  <span className="text-[#FF5B1F] font-bold">✓</span>
+                  <span className="text-emerald-600 font-bold">✓</span>
                   <span>14-day average deployment turnaround to active project pods.</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <span className="text-[#FF5B1F] font-bold">✓</span>
-                  <span>Transparent fixed margins and full statutory adherence.</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <span className="text-[#FF5B1F] font-bold">✓</span>
-                  <span>Direct replacement guarantees with zero billable disruption.</span>
                 </li>
               </ul>
             </div>
