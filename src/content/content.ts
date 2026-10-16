@@ -180,7 +180,7 @@ export const HOME_PAGE = {
         prefix: "< ",
         num: 15,
         suffix: " Min",
-        label: "Respond Time",
+        label: "Response Time",
         note: "Immediate turnaround on critical support escalations and urgent staffing requirements.",
       },
     ],
